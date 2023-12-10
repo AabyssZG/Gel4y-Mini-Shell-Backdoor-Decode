@@ -130,7 +130,13 @@ function tv($rR)
 tv($rL);
 ```
 
-定睛一看，原来是 `curl` 并执行了Github上另外一个托管的php代码，地址为：[https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/dev/gelay.php](https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/dev/gelay.php)，遂将该代码下载下来，也就是本仓库的 `Gel4y-Mini-Shell-3_original.php`，内容如下：
+定睛一看，原来是 `curl` 并执行了Github上另外一个托管的php代码，地址为：[https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/dev/gelay.php](https://raw.githubusercontent.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/dev/gelay.php)，遂将该代码下载下来，也就是本仓库的 `Gel4y-Mini-Shell-3_original.php`
+
+同样，我们还通过断点调试，可以得到解码后执行的PHP内容：
+
+![dd-2](./img/dd-2.png)
+
+通过断点调试，拿到已经解密的php自定义函数 `tv($rR)` 里面的内容，同样可以得到本仓库的 `Gel4y-Mini-Shell-3_original.php`，内容如下：
 
 ```php
 <?php
