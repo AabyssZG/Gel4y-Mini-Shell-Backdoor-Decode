@@ -8,15 +8,19 @@
 
 ## 2# 杀软测试
 
-直接能过阿里云恶意检测平台
+直接能过阿里云恶意检测平台：[https://ti.aliyun.com/#/webshell](https://ti.aliyun.com/#/webshell)
 
 ![aliyun](./img/aliyun.png)
 
-长亭牧云的WebShell检测也不在话下
+长亭牧云的WebShell检测也不在话下：[https://stack.chaitin.com/security-challenge/webshell/index](https://stack.chaitin.com/security-challenge/webshell/index)
 
 ![stack](./img/stack.png)
 
 注：阿里云是最外层过了，长亭牧云是里层解密内容过了
+
+以上这两个平台的查杀过了，那其他的WebShell查杀工具和平台基本都秒了
+
+![kunwu](./img/kunwu.png)
 
 ## 3# PHP分析
 
