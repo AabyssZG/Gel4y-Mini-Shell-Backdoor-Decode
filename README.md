@@ -6,6 +6,8 @@
 
 刚好最近闲的没事干，也在研究WebShell方面的免杀，就随手看看
 
+我将在本项目，讲解这个免杀WebShell大马的核心运作原理，觉得不错可以给我点个Star😆
+
 ## 2# 杀软测试
 
 直接能过阿里云恶意检测平台：[https://ti.aliyun.com/#/webshell](https://ti.aliyun.com/#/webshell)
