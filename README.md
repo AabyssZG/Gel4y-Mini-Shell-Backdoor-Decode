@@ -24,7 +24,7 @@
 
 首先，原始的PHP来自于[https://github.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/blob/1.x.x/gel4y.php](https://github.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor/blob/1.x.x/gel4y.php)，也就是本仓库中的 `Gel4y-Mini-Shell-1_original.php`
 
-将 `Gel4y-Mini-Shell-1_original.php` 内容打开，可以很明显看到采用的是goto加密的方法，那这里不得不提到goto
+将 `Gel4y-Mini-Shell-1_original.php` 内容打开，可以很明显看到采用的是goto加密的方法，那这里不得不提到 `goto` 的相关语法知识，防止不懂的师傅看不懂后面的内容
 
 ### 3.1 goto语法
 
