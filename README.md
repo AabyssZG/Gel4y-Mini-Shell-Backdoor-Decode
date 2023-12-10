@@ -2,7 +2,7 @@
 
 ## 1# 概述
 
-最近看到许多公众号都在传老外的一个WebShell免杀项目：[https://github.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor](https://github.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor)h
+最近看到许多公众号都在传老外的一个WebShell免杀项目：[https://github.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor](https://github.com/22XploiterCrew-Team/Gel4y-Mini-Shell-Backdoor)
 
 刚好最近闲的没事干，也在研究WebShell方面的免杀，就随手看看
 
